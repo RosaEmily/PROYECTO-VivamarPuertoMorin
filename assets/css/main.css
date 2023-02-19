@@ -1,0 +1,19 @@
+div.carousel-inner div.carousel-item::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #8bcfd85b;
+    content: "";
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: medium !important;
+    font-weight: 500;
+}
+
+.bg-light{
+    background-color: #222232 !important;
+}
