@@ -26,6 +26,14 @@ div.carousel-inner div.carousel-item::before {
     color: #85b9bf;
 }
 
-.card{
+.card-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #85b9bf !important;
     border-radius: 0px !important;
 }
