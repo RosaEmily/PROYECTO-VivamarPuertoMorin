@@ -17,3 +17,15 @@ div.carousel-inner div.carousel-item::before {
 .bg-light{
     background-color: #222232 !important;
 }
+
+.primary-title{
+    color: #222232;
+}
+
+.secondary-title{
+    color: #85b9bf;
+}
+
+.card{
+    border-radius: 0px !important;
+}
