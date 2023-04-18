@@ -1,10 +1,10 @@
 <template>
     <div class="card" style="border:none; box-shadow: 0px 9px 37px -22px rgb(0 0 0 / 75%);">
         <div class="card-body" style="padding: 35px">
-            <h4 class="search-banner">En Vivamar Casa de Playa contamos con:</h4>
+            <h4 class="search-banner">En Vivamar contamos con:</h4>
             <br>
             <div class="row">
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-lg-2 text-center">
                     <span class="material-symbols-outlined" style="font-size:50px">
                         meeting_room
                     </span>
@@ -12,7 +12,7 @@
                         {{ n_bedrooms }} habitaciones
                     </div>
                 </div>
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-lg-2 text-center">
                     <span class="material-symbols-outlined" style="font-size:50px">
                         bedroom_child
                     </span>
@@ -20,7 +20,7 @@
                         {{ n_beds }} camas
                     </div>
                 </div>
-                <div class="col-2 text-center">
+                <div class="col-sm-4 col-lg-2 d-none d-sm-block text-center">
                     <span class="material-symbols-outlined" style="font-size:50px">
                         bathroom
                     </span>
@@ -28,23 +28,23 @@
                         {{ n_bathrooms }} baños
                     </div>
                 </div>
-                <div class="col-2 text-center">
+                <div class="col-sm-4 col-lg-2 d-none d-sm-block text-center">
                     <span class="material-symbols-outlined" style="font-size:50px">
                         cooking
                     </span>
                     <div>
-                        {{ n_kitchen }} cocina amueblada
+                        {{ n_kitchen }} cocina
                     </div>
                 </div>
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-lg-2 text-center">
                     <span class="material-symbols-outlined" style="font-size:50px">
                         garage
                     </span>
                     <div>
-                        {{ n_garages }} estacionamientos
+                        {{ n_garages }} aparcamientos
                     </div>
                 </div>
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-lg-2 text-center">
                     <span class="material-symbols-outlined" style="font-size:50px">
                         pool
                     </span>
