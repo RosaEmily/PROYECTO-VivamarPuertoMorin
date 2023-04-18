@@ -29,18 +29,21 @@
             <br>
             <form action="https://formsubmit.co/vivamar.puertomorin@gmail.com" method="POST">
                 <div class="mb-3">
-                    <input type="text" class="form-control" name="name" placeholder="Nombre" required>
+                    <input type="text" class="form-control" name="Nombre" placeholder="Nombre" required>
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    <input type="email" class="form-control" name="Correo" placeholder="Correo electrónico" required>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" name="subject" placeholder="Asunto" required>
+                    <input type="text" class="form-control" name="Asunto" placeholder="Asunto" required>
                 </div>
                 <div class="mb-3">
-                    <textarea type="text" class="form-control" name="message" placeholder="Mensaje" rows="5" required></textarea>
+                    <textarea type="text" class="form-control" name="Mensaje" placeholder="Mensaje" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="col-12 btn btn-primary">Enviar</button>
+                <input type="hidden" name="_next" value="https://vivamar-puerto-morin.vercel.app/">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="VIVAMAR - Mensaje!!!">
+                <button type="submit" class="col-12 btn btn-dark">Enviar</button>
             </form>
         </div>
         <div class="col-12 col-md-6">
