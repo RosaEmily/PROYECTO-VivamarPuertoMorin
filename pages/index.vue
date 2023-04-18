@@ -11,7 +11,7 @@
             <InfoComponent></InfoComponent>
         </div>
         <div class="secondary-section">
-            <div class="container py-5">
+            <div class="container pb-5">
                 <LocationComponent></LocationComponent>
             </div>
         </div>

@@ -20,7 +20,7 @@
             </div>
         </div>
         -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 pt-5">
             <h4 class="text-white text-center">Comunícate con nosotros</h4>
             <br>
             <div class="px-3 py-2 rounded" style="background-color: rgba(255, 255, 255, 0.5);" align="justify">
@@ -46,7 +46,7 @@
                 <button type="submit" class="col-12 btn btn-dark">Enviar</button>
             </form>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 pt-5">
             <h4 class="text-white text-center">Encuéntranos</h4>
             <br>
             <div class="px-3 py-2 rounded" style="background-color: rgba(255, 255, 255, 0.5);" align="justify">
