@@ -21,7 +21,37 @@
         </div>
         -->
         <div class="col-12 col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1818.528929924965!2d-78.89723684580112!3d-8.398658605789944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ace3391ad35303%3A0xe4ff8ed190d03e07!2sVivamar%20-%20Casa%20de%20Playa!5e0!3m2!1ses-419!2spe!4v1681777744448!5m2!1ses-419!2spe" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+            <h4 class="text-white text-center">Comunícate con nosotros</h4>
+            <br>
+            <div class="px-3 py-2 rounded" style="background-color: rgba(255, 255, 255, 0.5);" align="justify">
+                Estamos dispuestos a atenderte, escríbenos un mensaje o comunícate con nosotros por cualquiera de los medios disponibles en la parte inferior de esta web.
+            </div>
+            <br>
+            <form action="https://formsubmit.co/vivamar.puertomorin@gmail.com" method="POST">
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="subject" placeholder="Asunto" required>
+                </div>
+                <div class="mb-3">
+                    <textarea type="text" class="form-control" name="message" placeholder="Mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="col-12 btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        <div class="col-12 col-md-6">
+            <h4 class="text-white text-center">Encuéntranos</h4>
+            <br>
+            <div class="px-3 py-2 rounded" style="background-color: rgba(255, 255, 255, 0.5);" align="justify">
+                A través de Google Maps te brindamos la ubicación exacta de Vivamar con el fin de facilitar tu llegada a nuestra casa de playa.
+            </div>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1818.528929924965!2d-78.89723684580112!3d-8.398658605789944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ace3391ad35303%3A0xe4ff8ed190d03e07!2sVivamar%20-%20Casa%20de%20Playa!5e0!3m2!1ses-419!2spe!4v1681777744448!5m2!1ses-419!2spe" width="100%" height="348" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 </template>
 
